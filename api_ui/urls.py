@@ -7,4 +7,6 @@ from . import jwt_views
 urlpatterns = [
     path('auth/obtain_token/', jwt_views.obtain_jwt_token_by_email),
     path('auth/refresh_token/', jwt_views.refresh_jwt_token),
+
+    path('users/', views.UserList.as_view()),
 ]
