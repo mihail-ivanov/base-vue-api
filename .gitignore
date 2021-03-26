@@ -1,0 +1,23 @@
+*.pyc
+*.db
+*~
+.*
+*.sqlite3
+
+# Javascript
+node_modules/
+dist/
+*docs
+/dist
+
+# Python
+*build/
+*.egg-info/
+*env/
+*venv/
+
+!.gitignore
+
+api/style.log
+api/media
+
